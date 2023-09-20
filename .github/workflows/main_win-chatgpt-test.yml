@@ -42,7 +42,7 @@ jobs:
       - name: 📦 Package Next application
         run: |
           cd ./site-deploy
-          Compress-Archive Nextjs-site.zip ./*     
+          Compress-Archive ./Nextjs-site.zip ./*     
           
       - name: 🔍 Diagnostics
         run: |
